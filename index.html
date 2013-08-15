@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/makers.css">
   </head>
   <body>
-    <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <header>
       <div class="container">
-        <nav class="collapse navbar-collapse .navbar-ex1-collapse" role="navigation">
+        <nav class="navbar" role="navigation">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Toggle navigation</span>
@@ -21,13 +21,15 @@
             </button>
             <a class="navbar-brand" href="#">Nashville Makers Union</a>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active">Home</li>
-            <li>Who Are We?</li>
-            <li>Activities</li>
-            <li>Calendar</li>
-            <li>Contacts</li>
-          </ul>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">Home</li>
+              <li>Who Are We?</li>
+              <li>Activities</li>
+              <li>Calendar</li>
+              <li>Contacts</li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
