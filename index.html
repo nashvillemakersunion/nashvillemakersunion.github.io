@@ -5,13 +5,22 @@
   <head>
     <title>Nashville Makers Union</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ site.url }}/assets/bootstrap.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/makers.css">
   </head>
   <body>
     <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <nav class="collapse navbar-collapse" role="navigation">
+        <nav class="collapse navbar-collapse .navbar-ex1-collapse" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nashville Makers Union</a>
+          </div>
           <ul class="nav navbar-nav">
             <li class="active">Home</li>
             <li>Who Are We?</li>
@@ -31,5 +40,6 @@
 
 <p>Tenderloin bacon bresaola pastrami pork chop turkey ham hock fatback tri-tip kielbasa pork loin frankfurter. Pancetta beef chuck boudin. Bresaola brisket ham turkey boudin salami biltong ham hock pork chop. Jerky shankle tail, fatback spare ribs kielbasa salami meatball filet mignon leberkas beef ribs.</p>
     </section>
+    <script type="text/javascript" src="{{ site.url }}/assets/bootstrap.min.js"></script>
   </body>
 </html>
